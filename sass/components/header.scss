@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem;
+
+  &-btn {
+    border-color: $primary-pink;
+    border-radius: 1000px;
+    background-color: transparent;
+
+    & > a {
+      text-decoration: none;
+      text-transform: capitalize;
+      color: $primary-pink;
+      padding: 0.5rem 2rem;
+      display: inline-block;
+    }
+
+    &:hover {
+      background-color: $primary-light-pink;
+      & > a {
+        color: white;
+      }
+    }
+  }
+}

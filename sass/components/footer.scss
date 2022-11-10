@@ -1,0 +1,59 @@
+.footer-container {
+  background-color: $dark-cyan;
+  padding: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.contact {
+  width: 30vw;
+
+  &-phone {
+    display: flex;
+    align-items: center;
+  }
+
+  &-email {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.form {
+  width: 30vw;
+
+  &-forms {
+  }
+
+  &-btn {
+    border: none;
+    background-color: $primary-light-pink;
+    border-radius: 5px;
+
+    &--text {
+      padding: 1rem;
+      display: inline-block;
+    }
+  }
+}
+
+.final-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: #f4f2f2;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 5px;
+  width: 100%;
+  transition: all 0.2s;
+  margin-right: -3.25rem;
+}

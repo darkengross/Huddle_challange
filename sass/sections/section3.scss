@@ -1,0 +1,33 @@
+.flow {
+  &-container {
+    display: flex;
+    padding: 5rem 10rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-contents {
+    width: 30vw;
+
+    & > p {
+      font-size: 14px;
+    }
+  }
+
+  &-image {
+    & > img {
+      width: 40vw;
+    }
+  }
+}
+
+.question {
+  height: 40vh;
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30vh ;
+  }
+}

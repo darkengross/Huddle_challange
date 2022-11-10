@@ -1,0 +1,42 @@
+h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+
+  @media only screen and(max-width: 37.5em) {
+    font-size: 1.8rem;
+  }
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.mg-small-bottom {
+  margin-bottom: 3rem;
+}
+.mg-very-small-bottom {
+  margin-bottom: 1.5rem;
+}
+h3 {
+  font-size: 8rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.mg-very-small-right {
+  margin-right: 1rem;
+}
+
+.resp-png {
+  width: 100%;
+  display: inline-block;
+}
